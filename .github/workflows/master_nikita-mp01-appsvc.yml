@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'nikita-mp01-appsvc'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8E8480EAC79B48FF9E15670F00B31C70 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F2FFBA1B40484081AB17B5FF476970AA }}
           package: .
