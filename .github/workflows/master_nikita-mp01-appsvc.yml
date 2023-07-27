@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'nikita-mp01-appsvc'
+          app-name: 'az-mini-proj--1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F2FFBA1B40484081AB17B5FF476970AA }}
           package: .
